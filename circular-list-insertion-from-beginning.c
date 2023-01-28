@@ -1,11 +1,3 @@
-/******************************************************************************
-
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
 // C program for the above operation
 #include <stdio.h>
 #include <stdlib.h>
@@ -15,10 +7,8 @@ struct node {
     int info;
     struct node* next;
 };
-  
 // Pointer to last node in the list
 struct node* last = NULL;
-  
 // Function to insert a node in the
 // starting of the list
 void insertAtFront()
@@ -55,8 +45,7 @@ void insertAtFront()
         // of the new node temp
         last->next = temp;
     }
-}
-  
+} 
 // Function to print the list
 void viewList()
 {
@@ -78,7 +67,6 @@ void viewList()
         } while (temp != last->next);
     }
 }
-  
 // Driver Code
 int main()
 {
