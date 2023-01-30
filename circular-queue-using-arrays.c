@@ -1,18 +1,15 @@
 #include<stdio.h>
 #include<stdlib.h>
 #define MAX 10
-
 int cqueue_arr[MAX];
 int front=-1;
 int rear=-1;
-
 void display( );
 void insert(int item);
 int del();
 int peek();
 int isEmpty();
 int isFull();
-
 int main()
 {
         int choice,item;
@@ -52,7 +49,6 @@ int main()
         return 0;
 
 }/*End of main()*/
-
 void insert(int item)
 {
         if( isFull() )
@@ -90,7 +86,6 @@ int del()
                 front=front+1;
         return item;
 }/*End of del() */
-
 int isEmpty()
 {
         if(front==-1)
@@ -98,7 +93,6 @@ int isEmpty()
         else
                 return 0;
 }/*End of isEmpty()*/
-
 int isFull()
 {
         if((front==0 && rear==MAX-1) || (front==rear+1))
@@ -116,7 +110,6 @@ int peek()
         }
         return cqueue_arr[front];
 }/*End of peek()*/
-
 void display()
 {
         int i;
