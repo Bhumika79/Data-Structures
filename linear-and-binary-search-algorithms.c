@@ -61,3 +61,4 @@ void binary_search(int search_key,int array[100],int n){
   }
 printf("location=%d\t",mid);
 printf("Search_Key=%d Found!\n",search_key);
+}
