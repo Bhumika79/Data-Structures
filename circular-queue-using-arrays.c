@@ -10,8 +10,7 @@ int del();
 int peek();
 int isEmpty();
 int isFull();
-int main()
-{
+int main(){
         int choice,item;
         while(1)
         {
