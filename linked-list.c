@@ -4,8 +4,7 @@ struct node{
     int data;
     struct node*next;
 };
-int main()
-{
+int main(){
     struct node *new1,*new2,*new3,*new4,*new5;
     struct node *head=NULL;
     new1=(struct node*)malloc(sizeof(struct node));
