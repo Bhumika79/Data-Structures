@@ -41,7 +41,8 @@ void linear_search(int search_key,int array[100],int n){
     }
 }
 /* Binary Search to find Search Key */
-void binary_search(int search_key,int array[100],int n){
+void binary_search(int search_key,int array[100],int n)
+{
   int mid,i,low,high;
   low = 1;
   high = n;
