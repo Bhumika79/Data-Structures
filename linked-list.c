@@ -36,5 +36,4 @@ int main(){
     printf("%d\n", new3->data);
     printf("%d\n", new4->data);
     printf("%d\n", new5->data);
-    
-}
+    }
