@@ -20,8 +20,7 @@ int main ( ){
                push();
                break;
             }
-         case 2:
-            {
+         case 2:{
                pop();
                break;
             }
