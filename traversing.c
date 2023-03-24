@@ -9,7 +9,8 @@ struct node{
 struct node *head = NULL;
 struct node *temp;
 main(){
-    void traverse(){
+    void traverse()
+    {
 		struct node *temp = head;
 		if(head == NULL)
 			printf("nothing to traverse\n");
