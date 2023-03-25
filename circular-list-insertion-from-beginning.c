@@ -3,7 +3,8 @@
 #include <stdlib.h>
   
 // Structure of a linked list node
-struct node {
+struct node 
+{
     int info;
     struct node* next;
 };
