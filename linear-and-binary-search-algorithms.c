@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-main(){
+main()
+{
   int array[100],search_key,i,j,n,low,high,location,choice;
   void linear_search(int search_key,int array[100],int n);
   void binary_search(int search_key,int array[100],int n);
