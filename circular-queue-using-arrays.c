@@ -48,8 +48,7 @@ int main(){
         return 0;
 
 }/*End of main()*/
-void insert(int item)
-{
+void insert(int item){
         if( isFull() )
         {
                 printf("\nQueue Overflow\n");
