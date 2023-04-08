@@ -31,8 +31,7 @@ main(){
   return 0;
 }
 /* LINEAR SEARCH */
-void linear_search(int search_key,int array[100],int n)
-{
+void linear_search(int search_key,int array[100],int n){
   int i,location;
   for(i=1;i<=n;i++){
     if(search_key == array[i]){
