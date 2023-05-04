@@ -1,7 +1,6 @@
 // C program for the above operation
 #include <stdio.h>
 #include <stdlib.h>
-  
 // Structure of a linked list node
 struct node 
 {
